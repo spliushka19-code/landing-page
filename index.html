@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SportFuel — спортивное питание</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ===== ШАПКА ===== -->
+    <header class="header">
+        <div class="header__container container">
+            <a href="#" class="header__logo">
+                <img src="free-icon-flash-3649458.png" alt="SportFuel" class="header__logo-icon" />
+                <span class="header__logo-text">SportFuel</span>
+            </a>
+            <nav class="header__nav">
+                <a href="#advantages" class="header__nav-link">Преимущества</a>
+                <a href="#products" class="header__nav-link">Ассортимент</a>
+                <a href="#steps" class="header__nav-link">Как заказать</a>
+                <a href="#reviews" class="header__nav-link">Отзывы</a>
+                <a href="#form" class="header__nav-link">Заявка</a>
+            </nav>
+            <div class="header__actions">
+                <button class="header__login-btn btn btn--secondary">Войти</button>
+                <button class="header__burger" aria-label="Открыть меню">
+                    <span class="header__burger-line"></span>
+                    <span class="header__burger-line"></span>
+                    <span class="header__burger-line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ===== ГЕРОЙ ===== -->
+        <section class="hero">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        Спортивное питание,<br />
+                        которому доверяют
+                    </h1>
+                    <p class="hero__description">
+                        Протеин, аминокислоты, креатин и витамины с проверенным составом.
+                        Поможем подобрать под ваши цели.
+                    </p>
+                    <a href="#form" class="hero__button btn btn--primary">Оформить заявку</a>
+                </div>
+                <div class="hero__image-wrapper">
+                    <div class="hero__image-placeholder">
+                        <img src="free-icon-flash-3649458.png" alt="Спортивное питание" class="hero__image-icon" />
+                        <span class="hero__image-label">SportFuel</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ПРЕИМУЩЕСТВА ===== -->
+        <section class="advantages" id="advantages">
+            <div class="advantages__container container">
+                <h2 class="advantages__title section-title">Почему SportFuel</h2>
+                <div class="advantages__grid">
+                    <div class="advantage-card">
+                        <img src="free-icon-mark-14035541.png" alt="Проверенный состав" class="advantage-card__icon" />
+                        <h3 class="advantage-card__title">Проверенный состав</h3>
+                        <p class="advantage-card__description">Каждая партия проходит независимую лабораторную проверку.</p>
+                    </div>
+                    <div class="advantage-card">
+                        <img src="18204331.png" alt="Индивидуальный подбор" class="advantage-card__icon" />
+                        <h3 class="advantage-card__title">Индивидуальный подбор</h3>
+                        <p class="advantage-card__description">Учитываем цели, вес, уровень нагрузки и особенности организма.</p>
+                    </div>
+                    <div class="advantage-card">
+                        <img src="411712.png" alt="Быстрая доставка" class="advantage-card__icon" />
+                        <h3 class="advantage-card__title">Быстрая доставка</h3>
+                        <p class="advantage-card__description">Отправляем в день заказа — по всей России и СНГ.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== АССОРТИМЕНТ ===== -->
+        <section class="products" id="products">
+            <div class="products__container container">
+                <h2 class="products__title section-title">Ассортимент</h2>
+                <div class="products__grid">
+                    <article class="product-card">
+                        <div class="product-card__image" style="background:linear-gradient(135deg,#3b82f6,#1d4ed8);">
+                            <img src="12256879.png" alt="Протеин WHEY" class="product-card__emoji" />
+                        </div>
+                        <h3 class="product-card__title">Протеин WHEY</h3>
+                        <p class="product-card__description">Сывороточный протеин с высоким содержанием BCAA.</p>
+                        <button class="product-card__button btn btn--small btn--outline">Подробнее</button>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-card__image" style="background:linear-gradient(135deg,#8b5cf6,#6d28d9);">
+                            <img src="411712.png" alt="BCAA / EAA" class="product-card__emoji" />
+                        </div>
+                        <h3 class="product-card__title">BCAA / EAA</h3>
+                        <p class="product-card__description">Полный комплекс незаменимых аминокислот.</p>
+                        <button class="product-card__button btn btn--small btn--outline">Подробнее</button>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-card__image" style="background:linear-gradient(135deg,#06b6d4,#0891b2);">
+                            <img src="7987345.png" alt="Креатин" class="product-card__emoji" />
+                        </div>
+                        <h3 class="product-card__title">Креатин</h3>
+                        <p class="product-card__description">Повышает силу и выносливость во время тренировок.</p>
+                        <button class="product-card__button btn btn--small btn--outline">Подробнее</button>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-card__image" style="background:linear-gradient(135deg,#10b981,#059669);">
+                            <img src="16090027.png" alt="Витамины" class="product-card__emoji" />
+                        </div>
+                        <h3 class="product-card__title">Витамины</h3>
+                        <p class="product-card__description">Комплексы для иммунитета и восстановления.</p>
+                        <button class="product-card__button btn btn--small btn--outline">Подробнее</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== КАК ЗАКАЗАТЬ ===== -->
+        <section class="steps" id="steps">
+            <div class="steps__container container">
+                <h2 class="steps__title section-title">Как заказать</h2>
+                <div class="steps__grid">
+                    <div class="step-card">
+                        <span class="step-card__number">1</span>
+                        <h3 class="step-card__title">Оставьте заявку</h3>
+                        <p class="step-card__description">Заполните форму на сайте или позвоните нам.</p>
+                    </div>
+                    <div class="step-card">
+                        <span class="step-card__number">2</span>
+                        <h3 class="step-card__title">Консультация</h3>
+                        <p class="step-card__description">Мы поможем подобрать идеальный набор под ваши цели.</p>
+                    </div>
+                    <div class="step-card">
+                        <span class="step-card__number">3</span>
+                        <h3 class="step-card__title">Получите заказ</h3>
+                        <p class="step-card__description">Доставим в удобное время или ждём вас в магазине.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ОТЗЫВЫ ===== -->
+        <section class="reviews" id="reviews">
+            <div class="reviews__container container">
+                <h2 class="reviews__title section-title">Отзывы</h2>
+                <div class="reviews__grid">
+                    <blockquote class="review-card">
+                        <p class="review-card__text">
+                            Занимаюсь кроссфитом 3 года. SportFuel — лучшее, что пробовал.
+                            Протеин отличный, вкус приятный, эффект заметен уже через неделю.
+                        </p>
+                        <footer class="review-card__footer">
+                            <span class="review-card__author">Алексей С.</span>
+                            <span class="review-card__badge">
+                                <img src="1828614.png" alt="рейтинг" class="review-card__star" /> 5.0
+                            </span>
+                        </footer>
+                    </blockquote>
+                    <blockquote class="review-card">
+                        <p class="review-card__text">
+                            Очень понравилась консультация! Подобрали витамины и аминокислоты
+                            под мои цели. Доставка быстрая, всё в целости. Рекомендую!
+                        </p>
+                        <footer class="review-card__footer">
+                            <span class="review-card__author">Марина К.</span>
+                            <span class="review-card__badge">
+                                <img src="1828614.png" alt="рейтинг" class="review-card__star" /> 5.0
+                            </span>
+                        </footer>
+                    </blockquote>
+                    <blockquote class="review-card">
+                        <p class="review-card__text">
+                            Креатин от SportFuel — топ! Тренировки стали продуктивнее,
+                            восстановление быстрее. Цена приятно удивляет. Буду заказывать ещё.
+                        </p>
+                        <footer class="review-card__footer">
+                            <span class="review-card__author">Дмитрий В.</span>
+                            <span class="review-card__badge">
+                                <img src="1828614.png" alt="рейтинг" class="review-card__star" /> 4.9
+                            </span>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ЗАЯВКА ===== -->
+        <section class="form-section" id="form">
+            <div class="form-section__container container">
+                <div class="form-section__content">
+                    <h2 class="form-section__title">Заявка</h2>
+                    <p class="form-section__description">
+                        Оставьте контакты — мы перезвоним и ответим на вопросы по ассортименту.
+                    </p>
+                    <form class="form" action="#" method="POST">
+                        <div class="form__group">
+                            <label class="form__label" for="name">Имя <span class="form__required">*</span></label>
+                            <input class="form__input" type="text" id="name" placeholder="Иван Петров" required />
+                        </div>
+                        <div class="form__group">
+                            <label class="form__label" for="phone">Телефон <span class="form__required">*</span></label>
+                            <input class="form__input" type="tel" id="phone" placeholder="+7 (900) 123-45-67" required />
+                            <span class="form__hint">Формат: +7 или 8 и 10 цифр номера</span>
+                        </div>
+                        <div class="form__group">
+                            <label class="form__label" for="email">E-mail <span class="form__required">*</span></label>
+                            <input class="form__input" type="email" id="email" placeholder="you@example.com" required />
+                        </div>
+                        <div class="form__group">
+                            <label class="form__label" for="category">Категория <span class="form__required">*</span></label>
+                            <select class="form__input form__input--select" id="category" required>
+                                <option value="">Выберите категорию</option>
+                                <option value="bcaa">BCAA / EAA</option>
+                                <option value="protein">Протеин</option>
+                                <option value="creatine">Креатин</option>
+                                <option value="vitamins">Витамины</option>
+                                <option value="fat-burners">Жиросжигатели</option>
+                                <option value="gainers">Гейнеры</option>
+                            </select>
+                        </div>
+                        <div class="form__group">
+                            <label class="form__label" for="comment">Комментарий</label>
+                            <textarea class="form__input form__input--textarea" id="comment" rows="3" placeholder="Цели, аллергии, предпочтения по вкусу..."></textarea>
+                        </div>
+                        <div class="form__group form__group--checkbox">
+                            <input class="form__checkbox" type="checkbox" id="agree" required />
+                            <label class="form__checkbox-label" for="agree">
+                                Согласен на обработку персональных данных <span class="form__required">*</span>
+                            </label>
+                        </div>
+                        <button class="form__submit btn btn--primary" type="submit">Отправить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+   <!-- ===== ПОДВАЛ ===== -->
+<footer class="footer">
+    <div class="footer__container container">
+        <div class="footer__brand">
+            <a href="#" class="footer__logo">
+                <img src="free-icon-flash-3649458.png" alt="SportFuel" class="footer__logo-icon" />
+                <span class="footer__logo-text">SportFuel</span>
+            </a>
+            <p class="footer__tagline">Спортивное питание и консультации</p>
+            <div class="footer__contacts">
+                <a href="mailto:info@sportfuel.example" class="footer__contact-link">
+                    <img src="3694289.png" alt="" class="footer__contact-icon" />
+                    info@sportfuel.example
+                </a>
+                <a href="tel:+78001234567" class="footer__contact-link">
+                    <img src="126341.png" alt="" class="footer__contact-icon" />
+                    8 (800) 123-45-67
+                </a>
+            </div>
+        </div>
+        <nav class="footer__nav">
+            <h4 class="footer__nav-title">Сайт</h4>
+            <a href="#advantages" class="footer__nav-link">Преимущества</a>
+            <a href="#products" class="footer__nav-link">Ассортимент</a>
+            <a href="#steps" class="footer__nav-link">Как заказать</a>
+            <a href="#reviews" class="footer__nav-link">Отзывы</a>
+            <a href="#form" class="footer__nav-link">Заявка</a>
+        </nav>
+        <div class="footer__social">
+            <h4 class="footer__social-title">Мы в соцсетях</h4>
+            <div class="footer__social-links">
+                <a href="#" class="footer__social-link" aria-label="Telegram">
+                    <img src="4701496.png" alt="Telegram" class="footer__social-icon" />
+                </a>
+                <a href="#" class="footer__social-link" aria-label="VK">
+                    <img src="2111765.png" alt="VK" class="footer__social-icon" />
+                </a>
+                <a href="#" class="footer__social-link" aria-label="YouTube">
+                    <img src="152810.png" alt="YouTube" class="footer__social-icon" />
+                </a>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p class="footer__copyright">© 2026 SportFuel. Все права защищены.</p>
+        </div>
+    </div>
+</footer>
+
+</body>1
+</html>
